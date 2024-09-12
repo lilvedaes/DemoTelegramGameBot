@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "npx tsc"
+    "dev-build": "npx tsc"
   },
   "keywords": [],
   "author": "",
