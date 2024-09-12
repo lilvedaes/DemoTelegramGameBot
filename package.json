@@ -1,0 +1,30 @@
+{
+  "name": "gamejamserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "build-game": "cd settle-mints-game && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "grammy": "^1.30.0"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.5",
+    "typescript": "^5.6.2"
+  }
+}
