@@ -34,7 +34,7 @@ bot.command("about", (ctx) => {
 });
 bot.command("help", (ctx) => {
     ctx.reply(`
-    <b>Clicker Game Bot Help</b><br>
+    <b>Clicker Game Bot Help</b>
     <p>Get in touch with the game support team.</p>
   `, { parse_mode: "HTML" });
 });
