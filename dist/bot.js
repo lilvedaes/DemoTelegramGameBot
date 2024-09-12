@@ -45,6 +45,6 @@ bot.on("callback_query:data", async (ctx) => {
     }
 });
 bot.on("callback_query:game_short_name", async (ctx) => {
-    await ctx.answerCallbackQuery({ url: `https://itch.io/embed/526992` });
+    await ctx.answerCallbackQuery({ url: `https://itch.io/embed-upload/11455168?color=333333` });
 });
 bot.catch((err) => console.error(err));
